@@ -42,6 +42,37 @@
             <p>Este foi meu primeiro projeto feito em HTML e CSS.</p>
         </article>
     </section>
+    <section id="habilidades">
+        <h2>Habilidades e Tecnologias</h2>
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Avançado</td>
+                    <td>Conhecimento profundo em estruturação de páginas web</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Avançado</td>
+                    <td>Capacidade de criar designs responsivos e modernos</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediário</td>
+                    <td>Desenvolvimento de funcionalidades dinâmicas e interativas</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     <footer>
         <p>&copy; 2024 H. Oliveira. Todos os direitos reservados.</p>
         <section id="contato">
@@ -52,6 +83,30 @@
                         helz666@xxxx.com
                     </a></p>
             </address>
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="duvida">Orçamento</option>
+                    <option value="sugestao">Dúvida</option>
+                    <option value="outro">Sugestão</option>
+                </select>
+                <br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" cols="20" rows="5" required></textarea>
+                <br>
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Desejo receber novidades por e-mail</label>
+                <br>
+                <button type="submit" value="enviar mensagem">Enviar</button>
+                <br>
+
     </footer>
 </body>
 
